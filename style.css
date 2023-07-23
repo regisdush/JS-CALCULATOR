@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100dvw;
+    height: 100vh;
+}
+
+.container{
+    margin: 20px;
+    
+    
+}
+
+.blackets{
+    border: 1px solid rgb(80, 79, 32);
+    border-radius: 2px;
+    width: 60px;
+    font-size: 40px;
+}
+.percentage{
+    border: 1px solid rgb(148, 147, 109);
+    border-radius: 2px;
+    width: 60px;
+    font-size: 40px;
+}
+.number{
+    border: 1px solid rgb(25, 26, 24);
+    border-radius: 2px;
+    width: 60px;
+    font-size: 40px;
+    
+}
+.number:hover{
+    background-color: rgb(79, 82, 79);
+}
+.operator{
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 2px;
+    width: 60px;
+    font-size: 40px;
+}
+.operator:hover{
+    background-color: rgb(58, 58, 201);
+}
+.decimal{
+    border: 2px solid rgb(17, 17, 17);
+    border-radius: 2px;
+    width: 60px;
+    font-size: 40px;
+}
+.decimal:hover{
+    background-color: rgb(87, 86, 83);
+}
+.equal{
+    border: 2px solid rgb(43, 41, 42);
+    width: 60px;
+    border-radius: 2px;
+    font-size: 40px;
+}
+.equal:hover{
+    background-color: rgb(87, 87, 90);
+}
+#clear-btn{
+    border: 2px solid rgb(39, 38, 39);
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    width: 124.5px;
+    font-size: 40px;
+    background-color: red;
+    
+}
+#clear-btn:hover{
+    background-color: rgb(153, 60, 60);
+}
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#screen{
+    width: 200px;
+    border: 2px solid rgb(12, 12, 12);
+    height: 75px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.previous{
+    font-size: 20px;
+}
+.current{
+    font-size: 30px;
+}
